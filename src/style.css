@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald";
+}
+
+body {
+  background-color: #415a77;
+}
+
+.landing {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 20em;
+  overflow: hidden;
+  user-select: none;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.landing h1 {
+  font-weight: 700;
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+.landing p {
+  font-size: 1rem;
+}
+
+#landing-canvas {
+  position: absolute;
+  /* border: 2px solid red; */
+  /* width: 100%; */
+  /* height: 100%; */
+  top: 0%;
+  left: 0%;
+  z-index: -1;
+}
+
+.lorem {
+  padding: 10em;
+  height: 100vh;
+  text-align: justify;
+  color: #ffffff;
+}
