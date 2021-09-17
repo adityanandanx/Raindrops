@@ -118,10 +118,11 @@ hr {
   box-shadow: 0 4px 10px #00000069;
   padding: 3em;
   border-radius: 5px;
-  transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
 }
 
 .card:focus,
 .card:hover {
   transform: scale(1.02);
+  box-shadow: 0 4px 15px #00000069;
 }
